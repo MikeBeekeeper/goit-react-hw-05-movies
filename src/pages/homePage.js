@@ -1,4 +1,4 @@
-import TrendingMoviesList from '../components/TrendingMoviesList/TrendingMoviesList.js';
+import TrendingMoviesList from '../components/trendingMoviesList/TrendingMoviesList.js';
 
 const HomePage = () => {
   return (
