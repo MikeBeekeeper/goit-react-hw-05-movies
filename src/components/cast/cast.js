@@ -1,8 +1,8 @@
 import { fetchCast } from 'helpers/FetchAPI';
-import { getImage } from 'helpers/getImage';
+import { getImage } from 'helpers/GetImage';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Text } from './cast.styled';
+import { Text } from './Cast.styled';
 
 const Cast = () => {
   const [cast, setCast] = useState([]);

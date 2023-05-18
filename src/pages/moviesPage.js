@@ -1,4 +1,4 @@
-import SearchBar from '../components/searchBar/searchBar.js';
+import SearchBar from '../components/searchBar/SearchBar.js';
 
 const MoviesPage = () => {
   return (

@@ -1,7 +1,7 @@
 import { fetchMoviesByQuery } from '../../helpers/FetchAPI.js';
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useSearchParams } from 'react-router-dom';
-import { Button, Input, ListItem } from './searchBar.styled';
+import { Button, Input, ListItem } from './SearchBar.styled.js';
 
 const SearchBar = () => {
   const [movies, setMovies] = useState([]);
