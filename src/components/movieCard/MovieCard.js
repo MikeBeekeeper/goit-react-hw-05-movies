@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { fetchMovieDetails } from '../../helpers/FetchAPI.js';
 import { useEffect, useState } from 'react';
 import { Link, Outlet, useParams } from 'react-router-dom';
-import { getImage } from '../../helpers/GetImages.js';
+import { getImage } from '../../helpers/GetImage.js';
 import { AdditionalInfo, Info } from './MovieCard.styled';
 
 const MovieCard = () => {

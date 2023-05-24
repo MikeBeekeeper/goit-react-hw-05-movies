@@ -1,5 +1,5 @@
 import { fetchCast } from 'helpers/FetchAPI';
-import { getImage } from 'helpers/GetImages';
+import { getImage } from 'helpers/GetImage';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Text } from './Casts.styled';
