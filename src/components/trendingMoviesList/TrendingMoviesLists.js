@@ -1,7 +1,7 @@
 import { fetchTrendMovies } from '../../helpers/FetchAPI.js';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ListItem } from './TrendingMoviesList.styled.jsx';
+import { ListItem } from './TrendingMoviesLists.styled.js';
 
 const TrendingMoviesList = () => {
   const [movies, setMovies] = useState([]);
